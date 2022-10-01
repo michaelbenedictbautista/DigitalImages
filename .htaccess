@@ -1,0 +1,5 @@
+# Database Credentials
+SetEnv dbuser mike
+SetEnv dbpass 1234
+SetEnv dbname portfolio
+SetEnv dbhost localhost

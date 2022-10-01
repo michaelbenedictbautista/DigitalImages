@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "impact", "georgia";
+    src: url("fonts/impact.ttf") format("ttf");
+    src: url("fonts/georgia.ttf") format("ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+}
+
+.home-banner {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.home-title {
+    color: rgb(256, 256, 256);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* right, bottom */
+    
+}
