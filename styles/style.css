@@ -7,12 +7,14 @@
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(245, 245, 245);
+    font-size: 1.2rem;
 }
 
 .home-banner {
@@ -28,5 +30,31 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);/* right, bottom */
-    
+    letter-spacing: 0.3em;    
 }
+
+/* #nameInput {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} */
+
+
+
+  @media only screen and (max-width: 1013px) {
+
+    #home-title{
+        font-size : clamp(.1rem, 6vw, 3rem);
+        font-weight: bold;
+        margin-bottom: 0;
+      }
+    
+      #home-sub{
+        font-size : clamp(.1rem, 2vw, 2rem);
+      }
+ 
+ }
+
