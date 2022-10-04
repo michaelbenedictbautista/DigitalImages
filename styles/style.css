@@ -14,7 +14,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(245, 245, 245);
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: 16px;
 }
 
 .home-banner {
@@ -43,17 +44,19 @@ body {
 } */
 
 
-
-  @media only screen and (max-width: 1013px) {
+  @media only screen and (max-width: 1357px) {
 
     #home-title{
-        font-size : clamp(.1rem, 6vw, 3rem);
-        font-weight: bold;
-        margin-bottom: 0;
+        /* font-size : clamp(.5rem, 6vw, 3rem); */
+        font-size : 5vw;
+        margin-bottom: -20px;
+        letter-spacing: 0.1em; 
       }
     
       #home-sub{
-        font-size : clamp(.1rem, 2vw, 2rem);
+        /* font-size : clamp(1rem, 2vw, 2rem); */
+        font-size : 4vw;
+        letter-spacing: 0.1em;
       }
  
  }
